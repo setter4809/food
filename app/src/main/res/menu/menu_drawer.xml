@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Your Orders"/>
+    <item
+        android:title="Favorite order"/>
+    <item
+        android:title="Address Book"/>
+    <item
+        android:title="Wallet"/>
+    <item
+        android:title="Tiffin"/>
+    <item
+        android:title="Setting"/>
+    <item
+        android:title="Cart"/>
+    <item
+        android:title="LogOut"/>
+
+</menu>

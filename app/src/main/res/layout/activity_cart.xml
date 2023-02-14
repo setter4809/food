@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cart">
+
+    <TextView
+        android:id="@+id/Cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cart"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/qt1"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Cart"
+        android:layout_marginTop="20dp"
+        android:text="Arabica "
+        android:textSize="30sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/qt1"
+        android:text="Rs.30"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qty.1"
+        android:id="@+id/qty.1"
+        android:textSize="25sp"
+        android:layout_toRightOf="@+id/qt1"
+        android:layout_marginTop="95dp"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/pbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Cart"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="700dp"
+        android:padding="10dp"
+        android:paddingLeft="15dp"
+        android:text="Procced To Checkout"
+        tools:ignore="InvalidId" />
+
+
+</RelativeLayout>

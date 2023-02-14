@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Coffees">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:drawableLeft="@drawable/ic_baseline_shopping_cart_24"
+        android:drawableRight="@drawable/ic_baseline_shopping_cart_24"
+        android:padding="15dp"
+        android:id="@+id/cartbutton"
+        android:text="Cart"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/robustabutton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/robusta"
+        android:layout_alignRight="@+id/robusta"
+        android:layout_marginRight="20dp"
+        android:text="Add" />
+    <Button
+        android:id="@+id/blackcoffeebutton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Add"
+        android:layout_marginRight="20dp"
+        android:layout_alignRight="@+id/black"
+        android:layout_below="@+id/black"/>
+    <Button
+        android:id="@+id/cappuccinobutton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Add"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/cappiccino"
+        android:layout_alignRight="@+id/decaf"/>
+    <Button
+        android:id="@+id/decafbutton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/decaf"
+        android:text="Add"
+        android:layout_marginRight="20dp"
+        android:layout_alignRight="@+id/cappiccino"/>
+
+    <Button
+        android:id="@+id/arabicabutton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/arabica"
+        android:layout_alignRight="@+id/arabica"
+        android:layout_marginRight="20dp"
+        android:text="Add" />
+
+    <TextView
+        android:id="@+id/rs30"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/arabica"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Rs.30"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/rs40"
+        android:textStyle="bold"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/robusta"
+        android:gravity="center"
+        android:text="Rs.40"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/rs25"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/black"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Rs.25"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/rs50"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/decaf"
+        android:gravity="center"
+        android:text="Rs.50"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/rs60"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/cappiccino"
+        android:gravity="center"
+        android:text="Rs.90"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/coffee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Coffee"
+
+        android:textSize="40sp" />
+    <TextView
+        android:id="@+id/arabica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Arabica"
+        android:layout_below="@+id/coffee"
+        android:layout_marginTop="40dp"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/robusta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rs30"
+        android:layout_marginTop="20dp"
+        android:text="Robusta"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rs40"
+        android:layout_marginTop="20dp"
+        android:text="Black Coffee"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/decaf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Decaf"
+        android:layout_below="@+id/rs25"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/cappiccino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rs50"
+        android:layout_marginTop="20dp"
+        android:text="Cappuccino"
+        android:textSize="30sp" />
+
+</RelativeLayout>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dahboard">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/foodorder"
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/foodorder" />
+
+        <TextView
+            android:id="@+id/tea1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="110dp"
+            android:layout_toRightOf="@+id/tea"
+            android:text="Tea"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/tea"
+            android:layout_width="400dp"
+            android:layout_height="250dp"
+            android:layout_below="@+id/foodorder"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/tea" />
+
+        <TextView
+            android:id="@+id/tea2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tea"
+            android:layout_marginLeft="15dp"
+            android:text="Tea"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="525dp"
+            android:layout_toRightOf="@+id/text6"
+            android:text="Rs.40"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tea2"
+            android:layout_marginLeft="15dp"
+            android:text="Lemon Tea,Masala Tea"
+            android:textSize="20dp" />
+
+
+        <ImageView
+            android:id="@+id/burger"
+            android:layout_width="380dp"
+            android:layout_height="300dp"
+            android:layout_below="@+id/text6"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="11dp"
+            android:src="@drawable/burger" />
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/burger"
+            android:layout_marginLeft="15dp"
+            android:text="Burger"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text7"
+            android:layout_marginLeft="15dp"
+            android:text="Fast food,Cafe,Burger"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="Rs.60rs"
+            android:textSize="20dp"
+            android:layout_below="@+id/burger"
+            android:layout_toRightOf="@+id/text8"
+            />
+
+        <ImageView
+            android:id="@+id/pizza"
+            android:layout_width="380dp"
+            android:layout_height="300dp"
+            android:layout_below="@+id/text8"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/pizza" />
+
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pizza"
+            android:layout_marginLeft="15dp"
+            android:text="Pizza"
+            android:textSize="25sp"
+            />
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text9"
+            android:layout_marginLeft="15dp"
+            android:text="Veg Pizza,Non-Veg Pizza"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pizza"
+            android:layout_toRightOf="@id/text9"
+            android:text="Rs 200"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/momos"
+            android:layout_width="380dp"
+            android:layout_height="380dp"
+            android:layout_below="@+id/text10"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/momos" />
+
+        <TextView
+            android:id="@+id/text11"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/momos"
+            android:layout_marginLeft="15dp"
+            android:text="Momos"
+            android:textSize="25sp" />
+        <TextView
+            android:id="@+id/text12"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="Veg Momos,Non Veg Momos"
+            android:layout_below="@+id/text11"
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp"
+            />
+        <TextView
+            android:id="@+id/text13"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="Rs50"
+            android:layout_toRightOf="@+id/text11"
+            android:layout_marginTop="1750sp"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:id="@+id/thali"
+            android:layout_width="380dp"
+            android:layout_height="380dp"
+            android:layout_below="@+id/text13"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/thali" />
+
+        <TextView
+            android:id="@+id/text14"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/thali"
+            android:layout_marginLeft="15dp"
+            android:text="Thali"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/text15"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text14"
+            android:layout_marginLeft="15dp"
+            android:text="Delux thali ,Special thali"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2200dp"
+            android:layout_toRightOf="@+id/text15"
+            android:text="Rs 200"
+            android:textSize="20sp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text15"
+            android:src="@drawable/cake"
+            android:layout_marginTop="10dp"
+            android:id="@+id/cake"
+            />
+
+        <TextView
+            android:id="@+id/cakes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cake"
+            android:text="Chocolate Cake"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/cakes1"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cakes"
+            android:text="Veg,Non-Veg"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rs 300"
+            android:layout_below="@+id/cakes"
+            android:layout_toRightOf="@+id/cakes"
+            />
+
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
